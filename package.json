@@ -1,0 +1,17 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch scss:css",
+    "dev": "live-server --port=8888",
+    "build": "sass --update scss:dist/css --style compressed -f",
+    "webpack": "webpack"
+  },
+  "author": "duydb",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}

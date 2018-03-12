@@ -1,0 +1,21 @@
+@import 'variables';
+@import 'mixin';
+@import 'inheritance';
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    background-color: $primary-bg;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+a {
+    color: $action-color;
+    background: {
+        color: $action-bg;
+    }
+    padding: 4px 10px;
+    @extend %button;
+}
