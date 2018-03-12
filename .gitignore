@@ -3,4 +3,4 @@ dist
 
 .DS_Store
 .sass-cache
-.vs-code
+.vscode
